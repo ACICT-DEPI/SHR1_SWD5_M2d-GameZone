@@ -32,6 +32,7 @@ namespace GameZone.Controllers
               IdentityResult result= await roleManager.CreateAsync(role);
                 if (result.Succeeded)
                 {
+                    TempData["SuccessMessage"] = "Role created successfully!";
                     return View(new RoleViewModel());
                 }
                 foreach (var item in result.Errors)

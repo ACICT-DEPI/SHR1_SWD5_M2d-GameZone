@@ -15,6 +15,13 @@
                 <div class="form-group">
                     <label asp-for="RoleName" class="control-label"></label>
                     <input asp-for="RoleName" class="form-control" />
+                    @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                               
+                            </div>
+                        }
                     <span asp-validation-for="RoleName" class="text-danger"></span>
                 </div>
                 <div class="form-group">

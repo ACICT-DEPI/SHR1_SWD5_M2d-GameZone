@@ -227,11 +227,25 @@ span.badge.bg-secondary.rounded-0.fs-3 {
 
 
 
-
-
-
-
-.set-bg {
+.shopping .carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    bottom: 1.25rem;
+    left: 14%;
+    top: 42%;
+    padding-top: -15.75rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+}
+    .shopping .carousel-caption h5  {
+        color: #ffb320;
+        font-weight: bold;
+        font-size: 82px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+        .set-bg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

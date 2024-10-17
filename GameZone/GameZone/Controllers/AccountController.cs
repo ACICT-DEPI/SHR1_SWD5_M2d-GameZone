@@ -18,7 +18,7 @@ namespace GameZone.Controllers
         }
 
         [HttpGet]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult AddAdmin()
         {
 

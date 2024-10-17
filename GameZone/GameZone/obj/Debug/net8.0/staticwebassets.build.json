@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mxjUt5E2x0L9/pm+3IMsGU6QjeXngS2e5w+QXv9Sqek=",
+  "Hash": "nDfPvjNBxrwfP5L/QBRWykMv22Nr0BXWyg59uLtEfGA=",
   "Source": "GameZone",
   "BasePath": "_content/GameZone",
   "Mode": "Default",
@@ -188,6 +188,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\footer-top-bg.png"
     },
     {
+      "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\4d0c2d8f-f753-4add-a01f-4c5c02b7c572.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/4d0c2d8f-f753-4add-a01f-4c5c02b7c572.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\4d0c2d8f-f753-4add-a01f-4c5c02b7c572.jpg"
+    },
+    {
       "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\6a790b17-0b63-4676-956a-8627e5e1c92c.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
@@ -207,6 +226,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\games\\6a790b17-0b63-4676-956a-8627e5e1c92c.jpg"
     },
     {
+      "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\6f08a3cb-9932-4efe-98c2-97191f1d8074.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/6f08a3cb-9932-4efe-98c2-97191f1d8074.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\6f08a3cb-9932-4efe-98c2-97191f1d8074.jpg"
+    },
+    {
       "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\c27a7494-66d5-4d64-a48d-1ac09960fd20.jpg",
       "SourceId": "GameZone",
       "SourceType": "Discovered",
@@ -224,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\games\\c27a7494-66d5-4d64-a48d-1ac09960fd20.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\games\\d1d7a6b0-c075-47f8-9ca9-2c427c21d937.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/games/d1d7a6b0-c075-47f8-9ca9-2c427c21d937.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\games\\d1d7a6b0-c075-47f8-9ca9-2c427c21d937.jpg"
     },
     {
       "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\logo.png",
@@ -357,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\review-bg.png"
+    },
+    {
+      "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\shopping.jpg",
+      "SourceId": "GameZone",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\",
+      "BasePath": "_content/GameZone",
+      "RelativePath": "assets/images/shopping.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\shopping.jpg"
     },
     {
       "Identity": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\assets\\images\\slider-1.jpg",
