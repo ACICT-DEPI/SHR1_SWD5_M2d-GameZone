@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\account\\addadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\roles\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\roles\\new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\games\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\games\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|c:\\users\\marim\\downloads\\gamezone\\gamezone\\gamezone\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D43EA7AA-A2C8-4289-9B32-916C8C9EE6C7}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "GameZone\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "GameZone\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T21:50:42.613Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T00:16:17.12Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Account\\AddAdmin.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\AddAdmin.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Account\\AddAdmin.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T00:21:15.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "New.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Roles\\New.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Roles\\New.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Roles\\New.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Roles\\New.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T00:20:04.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Games\\Create.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Games\\Create.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Games\\Create.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Games\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T00:14:59.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAALkAAAAAAAAAAAD4v5wAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T22:50:44.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T22:41:02.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marim\\Downloads\\GameZone\\GameZone\\GameZone\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T21:48:15.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
