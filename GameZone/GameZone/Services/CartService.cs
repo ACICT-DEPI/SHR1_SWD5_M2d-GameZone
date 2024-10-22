@@ -28,44 +28,68 @@ namespace GameZone.Services
 
         public IEnumerable<CartItem> AddToCart(int id)
         {
-
+            // Find the game by id
             var game = _context.Games.Find(id);
-            //if (game != null)
-            //{
-                CartItem item = new CartItem
+
+            if (game == null)
+            {
+                return new List<CartItem>();
+            }
+
+            // Check if the game is already in the cart
+            var existingCartItem = _context.CartItems.FirstOrDefault(c => c.GameId == id);
+
+            // If the game is already in the cart, increase the quantity
+            if (existingCartItem != null)
+            {
+                existingCartItem.Quantity++;
+            }
+            else
+            {
+                // If the game is not in the cart, add a new CartItem
+                CartItem newItem = new CartItem
                 {
                     GameId = game.Id,
                     Quantity = 1
                 };
 
-                List<CartItem> items = new List<CartItem>(); ;
-                items.Add(item);
+                _context.CartItems.Add(newItem);
+            }
+
+            // Save changes to the database
+            _context.SaveChanges();
+
+            // Return the updated list of cart items
+            return _context.CartItems.Include(c => c.Game).ToList();
 
 
-                _context.CartItems.Add(item);
-                _context.SaveChanges();
-                return items;
-
-           
 
         }
         public bool Delete(int id)
         {
             var isDeleted = false;
-            var game = _context.CartItems.Find(id);
 
-            if (game is null)
-                return isDeleted;
-            _context.Remove(game);
-            var effectedRows = _context.SaveChanges();
 
-            if (effectedRows > 0)
+            // Find the cart item by its primary key
+            var cartItem = _context.CartItems.FirstOrDefault(c => c.Id == id);
+
+            if (cartItem == null)
             {
-                isDeleted = true;
-                
+                return isDeleted; 
             }
 
-            return isDeleted;
+           
+            _context.CartItems.Remove(cartItem);
+            var affectedRows = _context.SaveChanges();
+
+            if (affectedRows > 0)
+            {
+                isDeleted = true; // Mark as deleted if there are affected rows
+            }
+        
+        
+            return isDeleted; // Return the deletion status
+
         }
 
         public IEnumerable<CartItem> DisplayCart()

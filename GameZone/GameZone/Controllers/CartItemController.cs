@@ -34,7 +34,7 @@ namespace GameZone.Controllers
         public ActionResult Cart()
         {
             var cart = _cartService.DisplayCart();
-            return View("AddToCart");
+            return View("AddToCart", cart);
         }
 
 
@@ -56,14 +56,27 @@ namespace GameZone.Controllers
             var isDeleted = _cartService.Delete(id);
 
 
-            return isDeleted ? RedirectToAction("Cart") : BadRequest();
+            return isDeleted ? RedirectToAction("Index") : BadRequest();
 
         }
 
 
-        public IActionResult Submit()
-        { return View(); 
-        }    
+        public IActionResult SubmitAndDelete()
+        {
+            
+                // Delete all items from the cart
+                var cartItems = _cartService.GetAll();
+                foreach (var cartItem in cartItems)
+                {
+                    _cartService.Delete(cartItem.Id);
+                }
 
+                // Redirect to the Submit view
+                return View("Submit");
+        }
+        //public IActionResult Submit()
+        //{
+        //    return View();
+        //}
     }
 }

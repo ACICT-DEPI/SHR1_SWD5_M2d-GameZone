@@ -1,41 +1,78 @@
 ﻿@model IEnumerable<CartItem>
 
+<form asp-controller="CartItem" enctype="multipart/form-data" >
 
-@{
-    ViewData["Title"] = "Cart";
-}
+    @if (Model != null && Model.Any())
+    {
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                font-size: 18px;
+                text-align: left;
+            }
 
+            table, th, td {
+                border: 1px solid #dddddd;
+                padding: 8px;
+            }
 
+            th {
+                background-color: #dddddd;
+                color: black;
+            }
 
-@if (Model != null @* && Model.Any() *@)
-{
-    <table>
-        <tr>
-            <th>Product</th>
-            <th>Quantity</th>
-            <th>Price</th>
-            <th>Total</th>
-            <th>Action</th>
-        </tr>
-        @foreach (var item in Model)
-        {
+            input[type="submit"] {
+                background-color: #ff6666;
+                color: white;
+                border: none;
+                padding: 8px 12px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+                input[type="submit"]:hover {
+                    background-color: #ff4d4d;
+                }
+        </style>
+
+        <table>
             <tr>
-                <td>@item.Game?.Name</td>
-                <td>@item.Quantity</td>
-                <td>@item.Game?.Price.ToString("C")</td>
-                <td>@(item.Quantity * (item.Game?.Price ?? 0)).ToString("C")</td>
-                <td>
-                    @using (Html.BeginForm("RemoveFromCart", "CartItem", new { cartItemId = item.Id }, FormMethod.Post))
-                    {
-                        @Html.AntiForgeryToken()
-                        <input type="submit" value="Remove" />
-                    }
-                </td>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Action</th>
             </tr>
-        }
-    </table>
-}
-else
-{
-    <p>Your cart is empty.</p>
-}
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Game?.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Game?.Price</td>
+                    <td>@(item.Quantity * (item.Game?.Price ?? 0))</td>
+                    <td>
+                        <a class="btn btn-danger rounded rounded-3 js-delete" asp-action="DeleteFromCart" asp-route-id="@item.Id" data-id="@item.Id">
+                            <i class="bi bi-trash3"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <input type="submit" value="Submit" asp-action="SubmitAndDelete" />
+        <input type="submit" value="Back" asp-controller="Home" asp-action="Index" />
+    }
+    else
+    {
+
+        <div class="alert alert-secondary m-3 w-50 fs-4 rounded-4 " role="alert">
+           The card is empty !
+          
+        </div>
+    }
+
+</form>
+
+
